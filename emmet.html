@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emmet</title>
+</head>
+<body>
+    <!-- Operadores anidados: nesting
+     div>ul>li*3 -->
+     <div>
+        <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+     </div>
+    
+    <!-- operadores hermanos: sibling 
+     div+p+blockquote-->
+     <div></div>
+     <p></p>
+     <blockquote></blockquote>
+
+     <!-- Combinar 
+      div+div>p>p>span+em-->
+      <div></div>
+      <div>
+        <p>
+            <p>
+                <span></span>
+                <em></em>
+            </p>
+        </p>
+      </div>
+
+      <!-- ^ --
+       div+div>p>p>span+em^^^bquote -->
+       <div></div>
+       <div>
+        <p>
+            <p><span></span><em></em></p>
+        </p>
+       </div>
+       <bquote></bquote>
+
+       <!-- Con agrupacion 
+        div>(header>h1+nav>ul>li*3>a)+footer>p-->
+        <div>
+            <header>
+                <h1></h1>
+                <nav>
+                    <ul>
+                        <li><a href=""></a></li>
+                        <li><a href=""></a></li>
+                        <li><a href=""></a></li>
+                    </ul>
+                </nav>
+            </header>
+            <footer>
+                <p></p>
+            </footer>
+        </div>
+
+        <!-- div#header -->
+        <div id="header"></div>
+        <!-- div.caja -->
+         <div class="caja"></div>
+
+        <!-- enumerado 
+         ul>li.item$*5-->
+         <ul>
+            <li class="item1"></li>
+            <li class="item2"></li>
+            <li class="item3"></li>
+            <li class="item4"></li>
+            <li class="item5"></li>
+         </ul>
+    
+</body>
+</html>

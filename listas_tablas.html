@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Litas y tablas html</title>
+</head>
+<body>
+    <!-- lista desordenada, no esta enumerada -->
+     <ul>
+        <li>Manzana</li>
+        <li>Platano</li>
+        <li>Pera</li>
+     </ul>
+
+     <!-- lista ordenada, esta enumerada -->
+     <ol>
+        <li>Fresas</li>
+        <li>Uvas</li>
+        <li>Arandanos</li>
+     </ol>
+
+     <!-- Lista de definiciones -->
+     <dl>
+        <dt>Manzana</dt>
+        <dd>Fruta roja</dd>
+        <dt>Platano</dt>
+        <dd>Fruta amarilla</dd>
+        <dt>Pera</dt>
+        <dd>Fruta verde</dd>
+     </dl>
+
+     <!--Tabla basica -->
+     <table border = "1">
+        <tr>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Edad</th>
+        </tr>
+        <tr>
+            <td>Sara</td>
+            <td>Medina</td>
+            <td>21</td>
+        </tr>
+        <tr>
+            <td>Carlos</td>
+            <td>Medina</td>
+            <td>34</td>
+        </tr>
+        <tr>
+            <td>Laura</td>
+            <td>Medina</td>
+            <td>31</td>
+        </tr>
+     </table>
+     <br>
+     <!-- Tabla mejorada -->
+    <table border="">
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>Edad</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Sara</td>
+                <td>Medina</td>
+                <td>21</td>
+            </tr>
+            <tr>
+                <td>Carlos</td>
+                <td>Medina</td>
+                <td>34</td>
+            </tr>
+            <tr>
+                <td>Laura</td>
+                <td>Medina</td>
+                <td>31</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br>
+    <!-- Tabla avanzada -->
+    <table border="">
+        <thead>
+            <tr>
+                <th>Producto</th>
+                <th colspan="2">Descripción </th>
+                <th>Precio</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">Laptop</td>
+                <td>Marca</td>
+                <td>HP</td>
+                <td rowspan="2">$1000</td>
+            </tr>
+            <tr>
+                <td>Procesador</td>
+                <td>Intel Core i5</td>
+            </tr>
+            <tr>
+                <td>Smartphone</td>
+                <td>Marca</td>
+                <td>Iphone 17 Pro Max</td>
+                <td>$700</td>
+            </tr>
+        </tbody>
+    </table>
+
+        <!-- Lista anidada -->
+         <ul>
+            <li>Comprar Viveres
+                <ul>
+                    <li>Leche</li>
+                    <li>Arroz</li>
+                    <li>Verduras
+                        <ul>
+                            <li>Tomate</li>
+                            <li>Lechuga</li>
+                            <li>Brocoli</li>
+                        </ul>
+                    </li>
+                    <li>Frutas
+                        <ul>
+                            <li>Manzana</li>
+                            <li>Platano</li>
+                            <li>Pera</li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li>Lavar carro</li>
+            <li>Pasear perro</li>
+
+        </ul>
+</body>
+</html>
