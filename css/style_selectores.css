@@ -1,0 +1,62 @@
+/* selector por elemento */
+h1{
+    color: red;
+    font-size: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: black;
+}
+
+h2{
+    color: blue;
+    font-size: 36px;    
+}
+
+/* selector por id */
+h2#subtitulo-principal{
+    color: green;
+    font-size: 40px;
+}
+
+
+/* selector por clase */
+.subtitulo-secundario{
+    color: yellow;
+    font-size: 30px;
+}
+
+.contenido{
+    color: white;
+    background-color: gray;
+    font-size: 20px;
+}
+
+
+/* selector universal */
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* selector multiple */
+h1, h2, p{
+    text-align: center;
+}
+
+/* selector de descendencia: busca todos los elementos li dentro de la etiqueta ul */
+ul li{
+   background-color: darkgray;
+   color: black;
+   font-size: 15px;
+}
+
+/* Selector de hijos directos: busca todos los elementos li dentro de la etiqueta ul, 
+pero hijos directos */
+ul > li{
+    color: red;
+}
+
+ol > li{
+    color: green;
+    border: 1px solid black;
+}
+
