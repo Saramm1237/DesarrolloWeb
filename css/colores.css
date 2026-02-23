@@ -1,0 +1,45 @@
+body{
+    background-color: gainsboro;
+}
+
+/* Colores con nombres predefinidos  */
+h1{
+    color: darkmagenta;
+}
+
+.caja1{
+    width: 200px;
+    height: 200px;
+    background-color: darkcyan;
+}
+
+/* Colores hexadecimales, son 6 digitos (RRGGBB) 
+RR = Rojo, GG = Verde, BB = Azul*/
+h2{
+    color: #ffa200;
+}
+
+/* Colores RGB(Red, Green, Blue) van de 0 a 255 */
+h3{
+    color: rgb(0, 255, 100);
+}
+
+/* Colores RGBA(Red, Green, Blue, Alpha) van de 0 a 255 y alpha de 0 a 1
+Alpha es la transparencia */
+h4{
+    color: rgba(230, 25, 100, 0.3);
+    font-size: 20px;
+}
+
+/* Colores HSLA(Hue, Saturation, Lightness, Alpha) hue es el tono, 
+saturation es la saturacion, lightness es la luminosidad
+Alpha es la transparencia */
+h5{
+    color: hsla(120, 100%, 50%, 0.5);
+}
+
+
+h6{
+    color: transparent;
+    background-color: tomato;
+}

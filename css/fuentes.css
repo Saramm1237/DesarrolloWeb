@@ -1,0 +1,38 @@
+/* colocar una fuente global */
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*  CSS sans-serif
+compatibilidad con los navegadores, si la fuente no esta disponible se 
+usa la siguiente*/
+
+h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#empresa p span{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: burlywood;
+}
+
+/* Fuentes de google */
+
+.articulo{
+    font-size: 24px; 
+    font-weight: bolder;
+    font-style: italic;
+    text-transform: capitalize;
+    text-decoration: underline;
+    color: blueviolet;
+    line-height: 1.5em;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    text-align: justify;
+    text-shadow: 2px 2px 5px red;
+
+}
