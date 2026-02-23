@@ -1,0 +1,23 @@
+
+#elemento1{
+    color: red;
+}
+
+/* Estilo importante */
+.caja-elemento-1{
+    color: green !important;
+}
+
+/* En cascada se prioriza el ultimo estilo, orden de declaración 
+Lo mismo pasa con los archvios, se le da prioridad al ultimo archivo */
+
+p{
+    font-size: 36px;
+    color: blue;
+}
+
+
+p{
+    color: grey;
+    font-size: 30px;
+}
